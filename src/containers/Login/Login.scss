@@ -1,0 +1,78 @@
+/* Mobile */
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.loginForm {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding: 15px 0px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.appTitle {
+    font-size: 1.2rem;
+    /* equivalent to 24px at 16px base font size */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.6rem;
+    /* equivalent to 22px at 16px base font size */
+}
+
+.formTitle {
+    font-size: 1.1rem;
+    /* equivalent to 22px at 16px base font size */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.9rem;
+    /* equivalent to 20px at 16px base font size */
+}
+
+.formFields {
+    margin: auto;
+    width: 80%;
+}
+
+.formField {
+    margin-bottom: 12px;
+}
+
+.formButton {
+    margin-bottom: 20px;
+}
+
+.registerLink {
+    font-size: 0.625rem;
+    /* equivalent to 10px at 16px base font size */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.375rem;
+    /* equivalent to 22px at 16px base font size */
+    color: blue;
+    cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .loginForm {
+        width: 75%;
+    }
+}
+
+
+/* Desktop */
+@media (min-width: 768px) {
+    .loginContainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .loginForm {
+        width: 450px;
+    }
+}
